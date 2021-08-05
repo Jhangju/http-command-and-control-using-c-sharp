@@ -1,0 +1,6 @@
+C:\Users\black\source\repos\rat\rat\bin\Debug\rat.exe.config
+C:\Users\black\source\repos\rat\rat\bin\Debug\rat.exe
+C:\Users\black\source\repos\rat\rat\bin\Debug\rat.pdb
+C:\Users\black\source\repos\rat\rat\obj\Debug\rat.csproj.CoreCompileInputs.cache
+C:\Users\black\source\repos\rat\rat\obj\Debug\rat.exe
+C:\Users\black\source\repos\rat\rat\obj\Debug\rat.pdb
