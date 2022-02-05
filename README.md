@@ -1,5 +1,5 @@
 # http-command-and-control Remote Access Tool (RAT) using c# 
-
+<h4>NOTE: To undersatnd full command and control RAT from scratch <a href="https://osamaellahi.medium.com/create-your-own-basic-command-and-control-rat-framework-with-more-effective-results-e298249cbad5" >click here</a></h4>. 
 <b>Let's understand it.</b><br>
 <b>This will get the command from online web server.
 </b><br>
