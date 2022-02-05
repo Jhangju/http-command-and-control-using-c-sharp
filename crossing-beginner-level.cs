@@ -124,9 +124,6 @@ namespace rat
                 Thread.Sleep(1000);
 
             }
-
-
-
         }
     }
 }
